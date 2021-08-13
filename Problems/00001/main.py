@@ -29,11 +29,11 @@ class Solution:
 
 cls = Solution()
 
-a = cls.twoSum([2,7,11,15], 9)
-print(a == [0,1])
+ans = cls.twoSum([2,7,11,15], 9)
+print(ans == [0,1])
 
-b = cls.twoSum([3,2,4], 6)
-print(b == [1,2])
+ans = cls.twoSum([3,2,4], 6)
+print(ans == [1,2])
 
-c = cls.twoSum([3,3], 6)
-print(c == [0,1])
+ans = cls.twoSum([3,3], 6)
+print(ans == [0,1])
