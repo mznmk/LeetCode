@@ -6,6 +6,7 @@
 
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
+        # try to determine max_length
         max_length = 0
         try_length = 1
         index = 0
